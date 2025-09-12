@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func main() {
+func panic_main() {
 	process(9)
 	process(-1)
 }
