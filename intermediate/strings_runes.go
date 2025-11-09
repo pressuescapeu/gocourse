@@ -1,8 +1,8 @@
-package main
+package intermediate
 
 import "fmt"
 
-func main() {
+func strings_runes() {
 	// strings are immutable
 	message := "string \n"
 	another_message := "string \tsee that's tab"
