@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import "fmt"
 
@@ -25,7 +25,7 @@ func (e Employee) introduce() {
 	fmt.Printf("Hi, I'm %s and I'm %d years old, I have an employee ID of %s and I earn %.2f.\n", e.name, e.age, e.empId, e.salary)
 }
 
-func main() {
+func struct_embedding() {
 	emp := Employee{
 		person: person{name: "John", age: 30},
 		empId:  "E001", salary: 50000,
