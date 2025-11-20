@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"errors"
@@ -50,7 +50,7 @@ func readConfig() error {
 //	return nil
 //}
 
-func main() {
+func errors_not_custom() {
 	//result, err := sqrt(16)
 	//if err != nil {
 	//	fmt.Println(err)
