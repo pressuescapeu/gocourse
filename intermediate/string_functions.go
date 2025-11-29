@@ -1,11 +1,11 @@
-package main
+package intermediate
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func string_functions() {
 	//str := "Hello Go!"
 	//// len
 	//fmt.Println(len(str))
